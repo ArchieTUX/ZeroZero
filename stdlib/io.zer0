@@ -1,0 +1,8 @@
+# io.zer0
+
+fun input(prompt):
+    say prompt
+    give ""  # placeholder, real input handling is in interpreter
+
+fun say(value):
+    give value  # placeholder, interpreter prints it
