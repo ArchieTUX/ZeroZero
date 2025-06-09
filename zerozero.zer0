@@ -1,0 +1,16 @@
+fun greet(name):
+    say "Hello, " + name
+
+let x = 5
+let y = 10
+
+if x < y:
+    say "x is smaller"
+else:
+    say "y is smaller"
+
+while x > 0:
+    say x
+    let x = x - 1
+
+say greet("Adithya")
