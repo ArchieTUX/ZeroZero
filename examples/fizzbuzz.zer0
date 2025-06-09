@@ -1,0 +1,14 @@
+fun fizzbuzz(n):
+    if n % 15 == 0:
+        say "FizzBuzz"
+    else if n % 3 == 0:
+        say "Fizz"
+    else if n % 5 == 0:
+        say "Buzz"
+    else:
+        say n
+
+let i = 1
+while i <= 100:
+    fizzbuzz(i)
+    i = i + 1
