@@ -1,0 +1,21 @@
+# Test variable assignment and say
+let a = 10
+say a  # Expect: 10
+
+# Test string output
+let msg = "ZeroZero rocks!"
+say msg  # Expect: ZeroZero rocks!
+
+# Test function and return (give)
+fun add(x, y):
+    give x + y
+
+let result = add(5, 7)
+say result  # Expect: 12
+
+# Test conditional
+let val = 5
+if val > 3:
+    say "Greater than 3"
+else:
+    say "Not greater"
